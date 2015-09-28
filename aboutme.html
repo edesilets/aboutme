@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="/assets/jquery.js">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<style>
+		body {
+			background: rgba(110,110,110,1);
+			color: #193bc5;
+			text-align: center;
+			margin: 0auto 0auto;
+		}
+		header {
+			margin: 0 auto;
+		}
+		.pro-image {
+			border-radius:100%;
+			border: 5px solid white;
+			height:25em;
+			margin: 100px 0 0 0;
+			//height: 240px;
+		}
+		h1 {
+			font-size: 4.0em;
+			margin: 1px 1px 10px 1px;
+		}
+		/* Divider "info" formating start */
+		.info {
+			display: block;
+			font-size: 2.5em;
+		}
+		div.info img {
+			height: 60px;
+			vertical-align: middle;
+		}
+		/* Divider "info" formating end */
+		/* Divider "history" formating start */
+		.history {
+			margin: 1%;
+		}
+		div.history img {
+			/* background: purple; */
+			height: 5em;
+			padding: 0 2.5em 0 2.5em;
+		}
+		/* Divider "history" formating end*/
+		</style>
+	</head>
+	<body>
+		<header>
+			<img class="pro-image" src="https://scontent-lga1-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/11692510_10153397148385874_4450638492942869747_n.jpg?oh=df4e285a71295a6714bb5a20a3a498ee&oe=5699F934">
+			<h1>Ethan Desilets</h1>
+			
+			<div class="info">
+				<!---<image src="https://informationstrategyrsm.files.wordpress.com/2013/10/android-logo-apple-inc-humor-funny-logos.jpg">--->
+				<image src="https://ionegiantmag.files.wordpress.com/2014/05/a-capture16.gif?w=315&h=189&crop=1">
+					774-571-0101
+			</div>
+			</br>
+			<div class="info">
+				<image src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Gmail_logo.png">
+				<!--<image src="http://assets.sunlightfoundation.com.s3.amazonaws.com/images/blog/posts/Gmail-logo.jpg">-->
+					erdesi90562@gmail.com</br>
+			</div>
+			
+			<div class="history">
+				<a href="https://www.codecademy.com/erdesi90562"><img src="http://s3.amazonaws.com/codecademy-blog/assets/logo_blue_dark.png"></a>
+				<a href="https://github.com/erdesi90562"><img src="https://og.github.com/mark/github-mark@1200x630.png"></a>
+				<a href="https://www.codeschool.com/users/1799180"><img src="https://d1tijy5l7mg5kk.cloudfront.net/assets/meta/og-avatar-924111135a76cec9a4bfbb02d1efa0cf.png"></a>
+				<a href="https://www.linkedin.com/pub/ethan-desilets/5b/364/8b2"><img src="https://lh4.googleusercontent.com/-CepHHHB3l1Y/AAAAAAAAAAI/AAAAAAAAAAA/Z8MftqWbEqA/s0-c-k-no-ns/photo.jpg"></a>
+			</div>
+		</header>
+		<article class ="home">
+			<h2>About me and more about me</h2>
+			<p>
+				I am a driven indevisual. My first time i payied with code was at home. My dad want a webpage to sell things on. That was my first intoduction with code. After that I want to know more about linux. I wanted to know how to create a web ever. Thats when i started to lear about apache (not "apache2"). Then i put to day for a while. Recently i have discovered that i want to be more of a thinker no a grunt at work.</P>			</p>
+			<p>
+				<h2>html</h2>
+					<p> dad wanted web page to sell stuff. myspace html code make your own.</p>
+				<h2>linux</h2>
+					<p> apache. I wanted to make my own website and or host it. wanted to be a hacker.  </p>
+				<h2>rasberry pi</h2>
+					<p> bought may of 2013 </p>
+				<h2>sql - UCS</h2>
+					<p> saved a lot of time and money for the company</p>
+				<h2>codecademy</h2>
+					<p>june 2015 learned php in july. wrote alot of php for a while. made webpage using php</p>
+				<h2>ubuntu access contol management</h2>
+				<h2>programing enviements</h2>
+				<h2>github</h2>
+				<h2>esp8266</h2>
+				<h2>arduino</h2>
+				<h2>nodejs</h2>
+				<h2>basic hardware</h2>
+				<h2>acces systems weigand protocal</h2>
+			</p>
+		</article>
+		<script>
+			document.getElementsByClassName('home')[0].style.visibility='hidden';
+ 			$(".pro-image").hover(function () {
+
+			});
+
+			$(".pro-image").on("click", function() {
+				$(".pro-image").animate({margin: '25px 0 0 0'},3075);
+				$("header").animate({zoom: 0.5},3075);
+				document.getElementsByClassName('home')[0].style.visibility='visible';
+			});
+		</script>
+	</body>
+</html>
