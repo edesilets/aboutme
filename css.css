@@ -1,13 +1,19 @@
 body {
-	background: rgba(110,110,110,1);
-	color: #193bc5;
+	color: #FF5A09;
 	text-align: center;
-	margin: 0auto 0auto;
+	background: #6e6e6e;
+	/* background: url("http://dash.ga.co/assets/anna-bg.png"); */
+	/* background: linear-gradient(bottom, #6e6e6e , #393939); */
+	/* background: linear-gradient(bottom, orange, purple); */
+	/* background: -webkit-linear-gradient(left, blue, green); */
+	/* background: -moz-linear-gradient(bottom, yellow, red); */
+	background-size: cover ;
+	background-repeat: no-repeat;
+	/* background-position: center; */
 }
 header {
-	/* margin: 0 auto; */
+	margin: auto;
 }
-
 .pro-image {
 	position:relative;
 	display: block;
@@ -46,6 +52,7 @@ div.history img {
 	padding: 0 2.5em 0 2.5em;
 }
 /* Divider "history" formatting end*/
+/* aboutme div control */
 .home {
 	display: none;
 	text-align: center;
@@ -54,8 +61,4 @@ div.history img {
 	max-width: 85%;
 	margin: 0 auto;
 	font-family: 'Raleway', sans-serif;
-	
-}
-footer {
-	
 }
