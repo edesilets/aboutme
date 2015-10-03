@@ -44,19 +44,19 @@
 		<article class ="home">
 			<h2>Who am I?</h2>
 			<p>
-			My name is Ethan Desilets and I have a passion for computers. I would describe myself as a driven, hardworking, and determined individual. For as long as I can remember, I have always been curious about how things function and operate. When I was younger I was always playing with a screwdriver, taking my electronics apart and trying to determine how they functioned. This desire to understand how many things around me worked followed me throughout my schooling.
+			&#9;My name is Ethan Desilets and I have a passion for computers. I would describe myself as a driven, hardworking, and determined individual. For as long as I can remember, I have always been curious about how things function and operate. When I was younger I was always playing with a screwdriver, taking my electronics apart and trying to determine how they functioned. This desire to understand how many things around me worked followed me throughout my schooling.
 			</p>
 			<p>
-			I attended Blackstone Valley Regional Vocational High School where I pursued curriculum in metal fabrication. While in high school, I was part of the robotics team and this is where I found a deep passion for electronics and computers. Sure I loved fabricating and creating parts for the robot, but I found myself more intrigued by the programming of the machine. This program introduced me to Computer Aided Drafting (CAD) which I further pursued at Quinsigamond Community College. It is here that I received a certificate in CAD and began working in the field. 
+			&#9;I attended Blackstone Valley Regional Vocational High School where I pursued curriculum in metal fabrication. While in high school, I was part of the robotics team and this is where I found a deep passion for electronics and computers. Sure I loved fabricating and creating parts for the robot, but I found myself more intrigued by the programming of the machine. This program introduced me to Computer Aided Drafting (CAD) which I further pursued at Quinsigamond Community College. It is here that I received a certificate in CAD and began working in the field. 
 			</p>
 			<p>
-			 While at my first CAD job a very interesting opportunity was presented to me. At this job there was a web portal that was connected to Verizon&lsquo;s Oracle SQL database. It was my task to create queries that assisted in making a 3-4 hour job into a 2 minute process. After receiving little recognition from upper management I left in pursuit of a more supportive work environment that would allow me to learn from others. I am currently employed by a security equipment installation company that encourages the pursuit of my interests. 
+			&#9;While at my first CAD job a very interesting opportunity was presented to me. At this job there was a web portal that was connected to Verizon&lsquo;s Oracle SQL database. It was my task to create queries that assisted in making a 3-4 hour job into a 2 minute process. After receiving little recognition from upper management I left in pursuit of a more supportive work environment that would allow me to learn from others. I am currently employed by a security equipment installation company that encourages the pursuit of my interests. 
 			</p>
 			<p>
-			In my quest for knowledge in the world of technology I have done everything in my power to educate myself. This self-education began when I purchased a Raspberry PI in order to become more proficient in Linux systems. I have also participated in multiple online code schools that have expanded my knowledge of Ubuntu, Git-Hub, and other programming environments. I recently created an IOT (internet of things) project. The goal of this system is to create a wireless boiler temperature monitor to be used on external boilers. The hardware I chose for this project is an ESP8266 chip that is programmed by the Arduino IDE to read two thermometers and control 8 relays. The data is sent via MQTT protocol to my Raspberry PI which is a MQTT Broker with "Node.js" installed. The raspberry PI hosts the web page which contains CSS, jQuery, and html. I have not yet set up a DNS for my external IP. 
+			&#9;In my quest for knowledge in the world of technology I have done everything in my power to educate myself. This self-education began when I purchased a Raspberry PI in order to become more proficient in Linux systems. I have also participated in multiple online code schools that have expanded my knowledge of Ubuntu, Git-Hub, and other programming environments. I recently created an IOT (internet of things) project. The goal of this system is to create a wireless boiler temperature monitor to be used on external boilers. The hardware I chose for this project is an ESP8266 chip that is programmed by the Arduino IDE to read two thermometers and control 8 relays. The data is sent via MQTT protocol to my Raspberry PI which is a MQTT Broker with "Node.js" installed. The raspberry PI hosts the web page which contains CSS, jQuery, and html. I have not yet set up a DNS for my external IP. 
 			</p>
 			<p>
-			I know that the next step towards a successful future for me is attendance at General Academy. I want to work with my passion every day and enjoy what I do. I am prepared to work hard and succeed at your academic institution. I am ready to change my career and my life. Thank you for taking the time to learn more about me and I look forward to hearing from you.
+			&#9;I know that the next step towards a successful future for me is attendance at General Academy. I want to work with my passion every day and enjoy what I do. I am prepared to work hard and succeed at your academic institution. I am ready to change my career and my life. Thank you for taking the time to learn more about me and I look forward to hearing from you.
 			</p>
 			<div class="thankyou">
 			Thank you,
@@ -64,6 +64,7 @@
 			<div class="signature">
 			Ethan Desilets
 			</div>
+			<button>Click</button>
 		</article>
 		<script>
 		/* alert('You must be connected to the internet for this site to function properly.'); */
@@ -75,6 +76,12 @@
 				$("header").animate({zoom: 0.5},3075);
 				$(".home").css("display","block");
 				$(".info, .history, h1, h5").css("display","none");
+			});
+			  $("button").on("click", function() {
+				$(".pro-image").animate({'left': '50%', 'margin-left': -$('#myImage').width()/2},3075);
+				$("header").animate({zoom: '1'},3075);
+				$(".home").css("display","none");
+				$(".info, .history, h1, h5").css("display","block");
 			});
 		</script>
 	</body>
