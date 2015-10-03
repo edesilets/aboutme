@@ -1,6 +1,6 @@
 body {
-	color: #FF5A09;
 	text-align: center;
+	color: #FF5A09;
 	background: #e6e6e6;
 	/* background: url("http://dash.ga.co/assets/anna-bg.png"); */
 	/* background: linear-gradient(bottom, #6e6e6e , #393939); */
@@ -9,22 +9,19 @@ body {
 	/* background: -moz-linear-gradient(bottom, yellow, red); */
 	background-size: cover ;
 	background-repeat: no-repeat;
-	/* background-position: center; */
 }
-/* header {
-	margin: auto;
-} */
+header {
+/* 	margin: 0 auto; */
+}
+
 .pro-image {
-	position:relative;
-	display: block;
+	padding-top: 120px;
+}
+
+.pro-image img{
 	border-radius:100%;
 	border: 5px solid white;
-	/* height:25em; */
-	margin: 100px auto 5px auto;
-	height: 240px;
-}
-div.ui-effects-wrapper {
-	margin: 100px auto 5px auto;
+	height: 240px;	
 }
 h5 {
 	margin: 0 0 0 0;
@@ -36,7 +33,7 @@ h1 {
 }
 /* Divider "info" formatting start */
 .info {
-	display: block;
+	text-align: center;
 	font-size: 2.5em;
 }
 div.info img {
@@ -46,10 +43,9 @@ div.info img {
 /* Divider "info" temperaturePipe end */
 /* Divider "history" formatting start */
 .history {
-	margin: 1%;
+	display: inline-block;
 }
 div.history img {
-	/* background: purple; */
 	height: 5em;
 	padding: 0 2.5em 0 2.5em;
 }
@@ -66,5 +62,6 @@ div.history img {
 button {
 	background: red;
 	height: 50px;
-	width: 100px;
+	width: 150px;
 	padding: 15px;
+	border-radius: 50%;
