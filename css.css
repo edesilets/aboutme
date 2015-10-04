@@ -1,5 +1,15 @@
+body{
+	color:blue;
+	background: #e6e6e6;
+}
 .pro-image {
+	display:flex; /* don't forget this */
+	justify-content:center; /* interesting */
+	-webkit-content:center;
+	align-items:center; /* interesting */
+	-webkit-align-items: center;
 	padding-top: 120px;
+	margin: 0 auto;
 }
 .pro-image img{
 	border-radius:100%;
@@ -7,9 +17,12 @@
 	height: 240px;
 }
 h5 {
+	text-align: center;
 	font-size: 1.2em;
+	margin: 0;
 }
 h1 {
+	text-align:center;
 	font-size: 4.0em;
 	margin: 1px 1px 10px 1px;
 }
@@ -25,7 +38,8 @@ div.info img {
 /* Divider "info" temperaturePipe end */
 /* Divider "history" formatting start */
 .history {
-	display: inline-block;
+	/* display: inline-block; */
+	text-align: center;
 }
 div.history img {
 	height: 5em;
@@ -34,10 +48,11 @@ div.history img {
 /* Divider "history" formatting end*/
 /* aboutme div control */
 .home {
+	margin: auto;
+	padding: 10px 0 0 0;
 	display: none;
 	text-align: center;
 	font-size: 1.5em;
 	max-width: 85%;
-	margin: 0 auto;
 	font-family: 'Raleway', sans-serif;
 }
