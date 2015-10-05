@@ -65,16 +65,26 @@
 			</div>
 		</article>
 		<script>
-		/* alert('You must be connected to the internet for this site to function properly.'); */
- 			$('.pro-image img').hover(function(){
+			$('.pro-image img').hover(function(){
 				$('.pro-image').effect("bounce", { times: 1 }, 1000);
 			});
 			
-			$(".pro-image").on("click", function() {
-				/* $(".pro-image").animate({margin: '25px 0 0 0'},3075); */
-				$("header").animate({zoom: 0.5},3075);
-				$(".home").css("display","block");
-				$(".info, .history, h1, h5").css("display","none");
+			var clickCount = 1;
+			
+			$('.pro-image img').on("click", function () {
+				
+				clickCount++;
+				
+				if (clickCount%2 == 0){
+					// $(".pro-image").animate({margin: '25px 0 0 0'},3075);
+					$("header").animate({zoom: 0.5},3075);
+					$(".home").css("display","block");
+					$(".info, .history, h1, h5").css("display","none");
+				}else {
+					$("header").animate({zoom: 1},3075);
+					$(".home").css("display","none");
+					$(".info, .history, h1, h5").css("display","block");
+				}
 			});
 		</script>
 	</body>
