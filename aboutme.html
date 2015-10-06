@@ -65,10 +65,6 @@
 			</div>
 		</article>
 		<script>
-			$('.pro-image img').hover(function(){
-				$('.pro-image').effect("bounce", { times: 1 }, 1000);
-			});
-			
 			var clickCount = 1;
 			
 			$('.pro-image img').on("click", function () {
@@ -76,12 +72,11 @@
 				clickCount++;
 				
 				if (clickCount%2 == 0){
-					// $(".pro-image").animate({margin: '25px 0 0 0'},3075);
-					$("header").animate({zoom: 0.5},3075);
+					$(".pro-image").animate({zoom: 0.70, padding: "60px 0 0 0", opacity: "0.5" },3075);
 					$(".home").css("display","block");
 					$(".info, .history, h1, h5").css("display","none");
 				}else {
-					$("header").animate({zoom: 1},3075);
+					$(".pro-image").animate({zoom: 1, padding: "120px 0 0 0", opacity: "1"},3075);
 					$(".home").css("display","none");
 					$(".info, .history, h1, h5").css("display","block");
 				}
