@@ -1,5 +1,5 @@
 body{
-	color:blue;
+	color:#2d4084;
 	background: #e6e6e6;
 }
 .pro-image {
@@ -8,13 +8,12 @@ body{
 	-webkit-content:center;
 	align-items:center; /* interesting */
 	-webkit-align-items: center;
-	padding-top: 120px;
 	margin: 0 auto;
 }
 .pro-image img{
 	border-radius:100%;
 	border: 5px solid white;
-	height: 240px;
+	height: 400px;
 }
 h5 {
 	text-align: center;
