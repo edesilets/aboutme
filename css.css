@@ -1,8 +1,19 @@
+/* Master control */
 body{
 	color:#2d4084;
 	background: #e6e6e6;
 	margin-top: 4%;
 }
+/* ************************** */
+
+/* My name */
+h1 {
+	text-align:center;
+	font-size: 4.0em;
+	margin: 1px 1px 10px 1px;
+}
+/* ************************** */
+
 .pro-image {
 	display:flex; /* don't forget this */
 	justify-content:center; /* interesting */
@@ -16,21 +27,19 @@ body{
 	border: 5px solid white;
 	height: 400px;
 }
+/* Text that says about me */
 h5 {
 	text-align: center;
 	font-size: 1.2em;
 	margin: 0;
 	margin: 1%;
 }
-h1 {
-	text-align:center;
-	font-size: 4.0em;
-	margin: 1px 1px 10px 1px;
-}
-/* Divider "info" formatting start */
+/* ************************** */
+
+/* Divider "info" Phone number and email */
 .info {
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 2.25em;
 	margin: 1%;
 }
 div.info i {
@@ -40,7 +49,16 @@ div.info img {
 	height: 60px;
 	vertical-align: middle;
 }
-/* Divider "info" temperaturePipe end */
+/* ************************** */
+
+.sexy_line{ 
+    display:block;
+    /*border:none;*/
+    height: 20px;
+    border-radius: 50%;
+    background: linear-gradient(-90deg, #e6e6e6, black, #e6e6e6);
+    margin: 2% 0 2% 0;
+}
 /* Divider "history" formatting start */
 .history {
 	/* display: inline-block; */
@@ -51,9 +69,10 @@ div.history img {
 	height: 5em;
 	padding: 0 2.5em 0 2.5em;
 }
-/* Divider "history" formatting end*/
+/* ************************** */
+
 /* aboutme div control */
-.home {
+.aboutme {
 	margin: auto;
 	padding: 10px 0 20px 0;
 	display: none;
