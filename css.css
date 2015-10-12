@@ -54,9 +54,9 @@ div.info img {
 .sexy_line{ 
     display:block;
     /*border:none;*/
-    height: 20px;
+    height: 10px;
     border-radius: 50%;
-    background: linear-gradient(-90deg, #e6e6e6, black, #e6e6e6);
+    background: linear-gradient(-90deg, #e6e6e6, rgb(104, 104, 104), #e6e6e6);
     margin: 2% 0 2% 0;
 }
 /* Divider "history" formatting start */
