@@ -1,6 +1,7 @@
 body{
 	color:#2d4084;
 	background: #e6e6e6;
+	margin-top: 4%;
 }
 .pro-image {
 	display:flex; /* don't forget this */
@@ -19,6 +20,7 @@ h5 {
 	text-align: center;
 	font-size: 1.2em;
 	margin: 0;
+	margin: 1%;
 }
 h1 {
 	text-align:center;
@@ -29,6 +31,10 @@ h1 {
 .info {
 	text-align: center;
 	font-size: 2.5em;
+	margin: 1%;
+}
+div.info i {
+	padding: 0 1% 0 1% ;
 }
 div.info img {
 	height: 60px;
@@ -39,6 +45,7 @@ div.info img {
 .history {
 	/* display: inline-block; */
 	text-align: center;
+	margin: 3%;
 }
 div.history img {
 	height: 5em;
