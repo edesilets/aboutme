@@ -25,23 +25,25 @@
 		</style>
 	</head>
 	<body>
-			<h1>Ethan Desilets</h1>
+		<h1>Ethan Desilets</h1>
 			<div class="pro-image">
 				<img src="https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10419024_10152507817070874_27749316326789616_n.jpg?oh=1ed96fecd023aae29fd3408167d33f31&oe=56A68F26">
 			</div>
-			<h5>About me <i class="fa fa-arrow-circle-right"></i></h5>
+		<h5>About me <i class="fa fa-arrow-circle-right"></i></h5>
+		<span class="sexy_top_line"></span>
 			<div class="info">
 				<i class="fa fa-mobile"></i>
 				774-571-0101
 				<i class="fa fa-envelope"></i>
-				erdesi90562@gmail.com</br>
+				erdesi90562@gmail.com
+				<a href="https://www.linkedin.com/pub/ethan-desilets/5b/364/8b2"><i class="fa fa-linkedin-square"></i></a>
+				<!-- <img src="https://lh4.googleusercontent.com/-CepHHHB3l1Y/AAAAAAAAAAI/AAAAAAAAAAA/Z8MftqWbEqA/s0-c-k-no-ns/photo.jpg"> -->
 			</div>
-			<span class="sexy_line"></span>
+		<span class="sexy_bottom_line"></span>
 			<div class="history">
 				<a href="https://github.com/erdesi90562"><i class="fa fa-github fa-4x"></i></a> <!-- <img src="http://axiacore.s3.amazonaws.com/inlines/github-axiacore.1398187930.png"> -->
 				<a href="https://www.codecademy.com/erdesi90562"><img src="http://s3.amazonaws.com/codecademy-blog/assets/logo_blue_dark.png"></a>
 				<a href="https://www.codeschool.com/users/1799180"><img src="https://d1tijy5l7mg5kk.cloudfront.net/assets/meta/og-avatar-924111135a76cec9a4bfbb02d1efa0cf.png"></a>
-				<!-- <a href="https://www.linkedin.com/pub/ethan-desilets/5b/364/8b2"><img src="https://lh4.googleusercontent.com/-CepHHHB3l1Y/AAAAAAAAAAI/AAAAAAAAAAA/Z8MftqWbEqA/s0-c-k-no-ns/photo.jpg"></a> -->
 			</div>
 		<article class ="aboutme">
 			<h2>Who am I?</h2>
@@ -75,13 +77,13 @@
 				clickCount++;
 				
 				if (clickCount%2 == 0){
-					$(".pro-image").animate({zoom: 0.70, padding: "60px 0 0 0", opacity: "0.5" },3075);
+					$(".pro-image img").animate({height: "175px", borderWidth: 5, opacity: "0.5" },3075);
 					$(".aboutme").css("display","block");
-					$(".info, .history, h1, h5").css("display","none");
+					$(".info, .history, h1, h5, .sexy_bottom_line, .sexy_top_line").css("display","none");
 				}else {
-					$(".pro-image").animate({zoom: 1, padding: "0px 0 0 0", opacity: "1"},3075);
+					$(".pro-image img").animate({height: "400px", padding: "0px 0 0 0", opacity: "1"},3075);
 					$(".aboutme").css("display","none");
-					$(".info, .history, h1, h5").css("display","block");
+					$(".info, .history, h1, h5, .sexy_top_line, .sexy_bottom_line").css("display","block");
 				}
 			});
 		</script>
