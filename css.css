@@ -1,58 +1,90 @@
+/* Master control */
 body{
-	color:blue;
+	color:#2d4084;
 	background: #e6e6e6;
+	font-family: 'Raleway', sans-serif !important;
 }
+/* ************************** */
+
+/* My name */
+h1 {
+	text-align:center;
+	font-size: 4.25em;
+	margin: 75px 1px 10px 1px;
+}
+/* ************************** */
+
 .pro-image {
 	display:flex; /* don't forget this */
 	justify-content:center; /* interesting */
 	-webkit-content:center;
 	align-items:center; /* interesting */
 	-webkit-align-items: center;
-	padding-top: 120px;
 	margin: 0 auto;
 }
 .pro-image img{
 	border-radius:100%;
-	border: 5px solid white;
-	height: 240px;
+	border: 10px solid white;
+	height: 400px;
 }
-h5 {
+/* Text that says "About me" */
+h2 {
 	text-align: center;
 	font-size: 1.2em;
 	margin: 0;
+	margin: 2px;
 }
-h1 {
-	text-align:center;
-	font-size: 4.0em;
-	margin: 1px 1px 10px 1px;
+/* ************************** */
+
+.sexy_top_line{ 
+    display:block;
+    height: 6px;
+    background: linear-gradient(-90deg, #e6e6e6, white, #e6e6e6);
+    margin: 50px 0px 0px;
 }
-/* Divider "info" formatting start */
+
+/* Divider "info" Phone number and email */
 .info {
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 2em;
+	margin: 20px 0px 20px 0px;
+}
+div.info i {
+	padding: 0 1% 0 1% ;
 }
 div.info img {
 	height: 60px;
 	vertical-align: middle;
 }
-/* Divider "info" temperaturePipe end */
+/* ************************** */
+
+.sexy_bottom_line{ 
+    display:block;
+    height: 6px;
+    background: linear-gradient(-90deg, #e6e6e6, white, #e6e6e6);
+    margin: 0px 16%;
+}
 /* Divider "history" formatting start */
 .history {
 	/* display: inline-block; */
 	text-align: center;
+	margin: 20px 0px;
 }
 div.history img {
-	height: 5em;
-	padding: 0 2.5em 0 2.5em;
+	height: 50px;
+	padding: 0 20px 0 20px;
 }
-/* Divider "history" formatting end*/
+/* ************************** */
+
 /* aboutme div control */
-.home {
+.aboutme {
 	margin: auto;
 	padding: 10px 0 20px 0;
 	display: none;
 	text-align: center;
 	font-size: 1.5em;
-	max-width: 85%;
-	font-family: 'Raleway', sans-serif;
+	max-width: 61%;
+}
+.aboutme h2 {
+	margin: 1%;
 }
