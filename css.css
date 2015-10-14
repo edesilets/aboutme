@@ -37,10 +37,8 @@ h5 {
 
 .sexy_top_line{ 
     display:block;
-    /*border:none;*/
-    height: 10px;
-    /*border-radius: 50%;*/
-    background: rgb(104, 104, 104);/*linear-gradient(-90deg, #e6e6e6, rgb(104, 104, 104), rgb(104, 104, 104), #e6e6e6);*/
+    height: 6px;
+    background: linear-gradient(-90deg, #e6e6e6, white, #e6e6e6);
     margin: 50px 0px 0px;
 }
 
@@ -61,10 +59,8 @@ div.info img {
 
 .sexy_bottom_line{ 
     display:block;
-    /*border:none;*/
-    height: 10px;
-    border-radius: 50%;
-    background: linear-gradient(-90deg, #e6e6e6, rgb(104, 104, 104), rgb(104, 104, 104),rgb(104, 104, 104), #e6e6e6);
+    height: 6px;
+    background: linear-gradient(-90deg, #e6e6e6, white, #e6e6e6);
     margin: 0px 16%;
 }
 /* Divider "history" formatting start */
