@@ -2,6 +2,7 @@
 body{
 	color:#2d4084;
 	background: #e6e6e6;
+	font-family: 'Raleway', sans-serif !important;
 }
 /* ************************** */
 
@@ -83,7 +84,6 @@ div.history img {
 	text-align: center;
 	font-size: 1.5em;
 	max-width: 61%;
-	font-family: 'Raleway', sans-serif;
 }
 .aboutme h2 {
 	margin: 1%;

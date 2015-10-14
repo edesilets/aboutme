@@ -19,7 +19,6 @@
 
 		<!-- css LINK Local -->
 		<link rel="stylesheet" type="text/css" href="./css.css">
-		
 	</head>
 
 
@@ -59,9 +58,9 @@
 		<span class="sexy_top_line"></span>
 
 		<div class="info">
-			<a href="mailto:erdesi90562@gmail.com"><i class="fa fa-envelope"></i>WRITE</a>
-			<i class="fa fa-mobile"></i>774-295-0101
-			<a href="https://www.linkedin.com/pub/ethan-desilets/5b/364/8b2" target="_blank"><i class="fa fa-linkedin-square"></i>CONNECT</a>
+			<a href="mailto:erdesi90562@gmail.com"><i class="fa fa-envelope"></i><span class="smaller">WRITE</span></a>
+			<a><i class="fa fa-mobile"></i><span class="smaller">774-295-0101</span></a> 
+			<a href="https://www.linkedin.com/pub/ethan-desilets/5b/364/8b2" target="_blank"><i class="fa fa-linkedin-square"></i><span class="smaller">CONNECT</span></a>
 		</div>
 		<span class="sexy_bottom_line"></span>
 		<div class="history">
@@ -78,13 +77,13 @@
 				clickCount++;
 				
 				if (clickCount%2 == 0){
-					$(".pro-image img").animate({height: "175px", borderWidth: 5, opacity: "0.5" },3075);
+					$(".pro-image img").animate({height: "175px", borderWidth: 5},3075);
 					$(".aboutme").css("display","block");
-					$(".info, .history, h1, h5, .sexy_bottom_line, .sexy_top_line").css("display","none");
+					// $(".info, .history, h1, h5, .sexy_bottom_line, .sexy_top_line").css("display","none");
 				}else {
-					$(".pro-image img").animate({height: "400px", padding: "0px 0 0 0", opacity: "1"},3075);
+					$(".pro-image img").animate({height: "400px", padding: "0px 0 0 0"},3075);
 					$(".aboutme").css("display","none");
-					$(".info, .history, h1, h5, .sexy_top_line, .sexy_bottom_line").css("display","block");
+					// $(".info, .history, h1, h5, .sexy_top_line, .sexy_bottom_line").css("display","block");
 				}
 			});
 		</script>
