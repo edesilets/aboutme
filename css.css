@@ -4,6 +4,20 @@ body{
 	background: #e6e6e6;
 	font-family: 'Raleway', sans-serif;
 }
+
+a {
+	text-decoration: none;
+	color: #48ADC1;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+a:hover {
+	color:#2D4084;
+	transition: color 500ms linear;
+	text-decoration: none;
+}
+
 /* ************************** */
 
 /* My name */
@@ -16,6 +30,9 @@ h1 {
 
 .pro-image {
 	text-align: center;
+}
+.pro-image img, .pro-image h2 {
+	cursor: pointer;
 }
 .pro-image img{
 	border-radius:100%;
@@ -70,6 +87,9 @@ div.info img {
 	text-align: center;
 	margin: 20px 0px;
 }
+.history a {
+	color: #48ADC1;
+}
 div.history img {
 	height: 50px;
 	padding: 0 20px 0 20px;
@@ -84,4 +104,11 @@ div.history img {
 	text-align: left;
 	font-size: 1em;
 	max-width: 600px;
+}
+
+.casedrop {
+	font-size: 4em;
+	color:#48ADC1;
+	font-weight: bolder;
+	margin: 2px 0px 0px 0px;
 }
