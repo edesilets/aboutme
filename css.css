@@ -57,6 +57,26 @@ h5 {
 }
 /* ************************** */
 
+/* About me */
+.aboutme {
+	margin: auto;
+	padding: 10px 0 20px 0;
+	display: none;
+	text-align: left;
+	font-size: 1em;
+	max-width: 600px;
+}
+
+.casedrop {
+	float: left;
+	line-height: 50px;
+	font-size: 4em;
+	color:#48ADC1;
+	font-weight: bolder;
+	margin: 2px 0px 0px 0px;
+}
+
+/* ************************** */
 .sexy_top_line{ 
     display:block;
     height: 6px;
@@ -90,6 +110,7 @@ div.info img {
     background: linear-gradient(-90deg, #e6e6e6, white, #e6e6e6);
     margin: 0px 16%;
 }
+
 /* Divider "history" formatting start */
 .history {
 	/* display: inline-block; */
@@ -104,22 +125,3 @@ div.history img {
 	padding: 0 20px 0 20px;
 }
 /* ************************** */
-
-/* aboutme div control */
-.aboutme {
-	margin: auto;
-	padding: 10px 0 20px 0;
-	display: none;
-	text-align: left;
-	font-size: 1em;
-	max-width: 600px;
-}
-
-.casedrop {
-	float: left;
-	line-height: 50px;
-	font-size: 4em;
-	color:#48ADC1;
-	font-weight: bolder;
-	margin: 2px 0px 0px 0px;
-}
