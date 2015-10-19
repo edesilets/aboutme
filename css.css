@@ -2,25 +2,41 @@
 body{
 	color:#2d4084;
 	background: #e6e6e6;
-	font-family: 'Raleway', sans-serif !important;
+	font-family: 'Raleway', sans-serif;
 }
+
+a {
+	text-decoration: none;
+	color: #48ADC1;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+a:hover {
+	color:#2D4084;
+	-webkit-transition: color 500ms linear;
+    -moz-transition: color 500ms linear;
+    -o-transition: color 500ms linear;
+    -ms-transition: color 500ms linear;
+	transition: color 500ms linear;
+	text-decoration: none;
+}
+
 /* ************************** */
 
 /* My name */
 h1 {
 	text-align:center;
 	font-size: 4.25em;
-	margin: 75px 1px 10px 1px;
+	margin: 50px 0px 20px 0px;
 }
 /* ************************** */
 
 .pro-image {
-	display:flex; /* don't forget this */
-	justify-content:center; /* interesting */
-	-webkit-content:center;
-	align-items:center; /* interesting */
-	-webkit-align-items: center;
-	margin: 0 auto;
+	text-align: center;
+}
+.pro-image img, .pro-image h2 {
+	cursor: pointer;
 }
 .pro-image img{
 	border-radius:100%;
@@ -29,6 +45,11 @@ h1 {
 }
 /* Text that says "About me" */
 h2 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h5 {
 	text-align: center;
 	font-size: 1.2em;
 	margin: 0;
@@ -36,10 +57,30 @@ h2 {
 }
 /* ************************** */
 
+/* About me */
+.aboutme {
+	margin: auto;
+	padding: 10px 0 20px 0;
+	display: none;
+	text-align: left;
+	font-size: 1em;
+	max-width: 600px;
+}
+
+.casedrop {
+	float: left;
+	line-height: 50px;
+	font-size: 4em;
+	color:#48ADC1;
+	font-weight: bolder;
+	margin: 2px 0px 0px 0px;
+}
+
+/* ************************** */
 .sexy_top_line{ 
     display:block;
     height: 6px;
-    background: linear-gradient(-90deg, #e6e6e6, white, #e6e6e6);
+	background: linear-gradient(-90deg, #e6e6e6, #FFFFFF, #e6e6e6);
     margin: 50px 0px 0px;
 }
 
@@ -48,6 +89,11 @@ h2 {
 	text-align: center;
 	font-size: 2em;
 	margin: 20px 0px 20px 0px;
+}
+.smaller {
+	font-size: 70%;
+	letter-spacing: 2px;
+	/*unsure if I like this*/
 }
 div.info i {
 	padding: 0 1% 0 1% ;
@@ -64,27 +110,18 @@ div.info img {
     background: linear-gradient(-90deg, #e6e6e6, white, #e6e6e6);
     margin: 0px 16%;
 }
+
 /* Divider "history" formatting start */
 .history {
 	/* display: inline-block; */
 	text-align: center;
 	margin: 20px 0px;
 }
+.history a {
+	color: #48ADC1;
+}
 div.history img {
 	height: 50px;
 	padding: 0 20px 0 20px;
 }
 /* ************************** */
-
-/* aboutme div control */
-.aboutme {
-	margin: auto;
-	padding: 10px 0 20px 0;
-	display: none;
-	text-align: center;
-	font-size: 1.5em;
-	max-width: 61%;
-}
-.aboutme h2 {
-	margin: 1%;
-}
