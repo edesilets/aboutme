@@ -111,6 +111,8 @@ div.history img {
 }
 
 .casedrop {
+	float: left;
+	line-height: 50px;
 	font-size: 4em;
 	color:#48ADC1;
 	font-weight: bolder;
