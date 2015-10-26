@@ -73,27 +73,33 @@
 
 			<a href="https://www.codecademy.com/erdesi90562" target="_blank"><img src="http://s3.amazonaws.com/codecademy-blog/assets/logo_blue_dark.png"></a>
 			&nbsp;&nbsp;&nbsp;
-			
+
 			<a href="https://www.codeschool.com/users/1799180" target="_blank"><img src="https://d1tijy5l7mg5kk.cloudfront.net/assets/meta/og-avatar-924111135a76cec9a4bfbb02d1efa0cf.png"></a>
 		</div>
 
 		<script>
-			var clickCount = 1;
+		var clickCount = 1;
 			
-			$('.pro-image img').on("click", function () {
+		$('.pro-image img, .pro-image h2').on("click", function () {
 				
-				clickCount++;
+			clickCount++;
 				
 				if (clickCount%2 == 0){
 					$(".pro-image img").animate({height: "175px", borderWidth: 5},3075);
+					$(".aboutme").animate({height: "1000px", opacity: "1" },3075);
 					$(".aboutme").css("display","block");
-					// $(".info, .history, h1, h5, .sexy_bottom_line, .sexy_top_line").css("display","none");
-				}else {
-					$(".pro-image img").animate({height: "400px", padding: "0px 0 0 0"},3075);
-					$(".aboutme").css("display","none");
-					// $(".info, .history, h1, h5, .sexy_top_line, .sexy_bottom_line").css("display","block");
 				}
-			});
+				
+				else {
+					$(".pro-image img").animate({height: "400px", padding: "0px 0 0 0", opacity: "1"},3075);
+					$(".aboutme").animate({height: "0px", opacity: "0" },3075);
+				}
+				
+				});
+
+		$('.pro-image img, .pro-image h2').hover(function() {
+			$(this).css('cursor','pointer');
+		});
 		</script>
 	</body>
 </html>
