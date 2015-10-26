@@ -15,9 +15,9 @@ a {
 a:hover {
 	color:#2D4084;
 	-webkit-transition: color 500ms linear;
-    -moz-transition: color 500ms linear;
-    -o-transition: color 500ms linear;
-    -ms-transition: color 500ms linear;
+	-moz-transition: color 500ms linear;
+	-o-transition: color 500ms linear;
+	-ms-transition: color 500ms linear;
 	transition: color 500ms linear;
 	text-decoration: none;
 }
@@ -65,6 +65,9 @@ h5 {
 	text-align: left;
 	font-size: 1em;
 	max-width: 600px;
+	height:0px;
+	overflow:hidden;
+	opacity:0;
 }
 
 .casedrop {
@@ -78,10 +81,10 @@ h5 {
 
 /* ************************** */
 .sexy_top_line{ 
-    display:block;
-    height: 6px;
+	display:block;
+	height: 6px;
 	background: linear-gradient(-90deg, #e6e6e6, #FFFFFF, #e6e6e6);
-    margin: 50px 0px 0px;
+	margin: 50px 0px 0px;
 }
 
 /* Divider "info" Phone number and email */
@@ -105,10 +108,10 @@ div.info img {
 /* ************************** */
 
 .sexy_bottom_line{ 
-    display:block;
-    height: 6px;
-    background: linear-gradient(-90deg, #e6e6e6, white, #e6e6e6);
-    margin: 0px 16%;
+	display:block;
+	height: 6px;
+	background: linear-gradient(-90deg, #e6e6e6, white, #e6e6e6);
+	margin: 0px 16%;
 }
 
 /* Divider "history" formatting start */
